@@ -1,0 +1,15 @@
+{
+  "name":           "Don't Watch later",
+  "version":        "0.1",
+  "description":    "A simple Google Chrome extension to disable autoplay for videos from your YouTube \"Watch Later\" playlist.",
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+  "permissions":    [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.youtube.com/*"
+  ],
+  "manifest_version": 2
+}
