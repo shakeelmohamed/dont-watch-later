@@ -30,13 +30,15 @@ function removeURLParameter(url, parameter) {
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
         if (typeof details && details.hasOwnProperty("url")) {
-            if (details.url.indexOf("&list=") !== -1) {
+            if (details.url.toLowerCase().indexOf("&list=wl") !== -1) {
                 /**
                  * Alternatively, for just the Watch Later playlist, use the following:
                  *
                  * return {redirectUrl: details.url.replace("&list=WL", "")};
                  */
-                return {redirectUrl: removeURLParameter(details.url, "list")};
+                return {
+                    redirectUrl: removeURLParameter(removeURLParameter(details.url, "list"), "index")
+                };
             }
         }
         return details;
