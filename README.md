@@ -19,9 +19,6 @@ to prevent YouTube's autoplay from being triggered.
 
 I usually open videos in a new tab from my Watch Later playlist, which automatically has the `list=WL` querystring parameter. I also don't usually watch videos in the order I added them to my Watch Later playlist. Instead of trying to hack YouTube's massive amounts of JavaScript, this extension does exactly what I need.
 
-# Contact
-
-Find me on Twitter: [@_Shakeel](https://twitter.com/_shakeel)
 
 # License
 
