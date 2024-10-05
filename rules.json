@@ -13,7 +13,7 @@
       }
     },
     "condition": {
-      "urlFilter": "*://*.youtube.com/watch*list=wl*",
+      "urlFilter": "*://*.youtube.com/watch*list=WL*",
       "resourceTypes": ["main_frame"]
     }
   }
