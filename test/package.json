@@ -1,0 +1,17 @@
+{
+  "name": "dont-watch-later-tests",
+  "version": "1.0.0",
+  "description": "Tests for Don't Watch Later Chrome extension",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^21.11.0"
+  },
+  "jest": {
+    "testTimeout": 30000,
+    "testMatch": ["**/*.test.js"]
+  }
+}

@@ -1,0 +1,7 @@
+*.zip
+.DS_Store
+_metadata/*
+
+test/node_modules/
+test/package-lock.json
+test/*.log

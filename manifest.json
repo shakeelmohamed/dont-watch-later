@@ -1,6 +1,6 @@
 {
   "name": "Don’t Watch Later",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A simple extension to disable autoplay for videos from your YouTube watch later playlist.",
   "icons": {
     "128": "x-icon-128.png"
@@ -9,7 +9,10 @@
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "*://*.youtube.com/watch*list=wl*"
+    "*://*.youtube.com/watch*list=WL*",
+    "*://*.youtube.com/watch*list=wl*",
+    "*://*.youtube.com/watch*list=Wl*",
+    "*://*.youtube.com/watch*list=wL*"
   ],
   "declarative_net_request": {
     "rule_resources": [

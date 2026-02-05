@@ -13,7 +13,61 @@
       }
     },
     "condition": {
+      "urlFilter": "*://*.youtube.com/watch*list=WL*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": ["list"]
+          }
+        }
+      }
+    },
+    "condition": {
       "urlFilter": "*://*.youtube.com/watch*list=wl*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": ["list"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.youtube.com/watch*list=Wl*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": ["list"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.youtube.com/watch*list=wL*",
       "resourceTypes": ["main_frame"]
     }
   }
