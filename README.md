@@ -2,7 +2,7 @@
 
 A simple Google Chrome extension to disable autoplay for videos from your YouTube Watch Later playlist.
 
-YouTube Watch Later Playlist URLs in the form
+YouTube Watch Later Playlist URLs with the Watch Later parameter (all case variations: `list=WL`, `list=wl`, `list=Wl`, or `list=wL`) in the form
 
 `https://www.youtube.com/watch?v=XXXXXXXXXXXX&index=123&list=WL`
 
